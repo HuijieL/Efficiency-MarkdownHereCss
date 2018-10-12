@@ -1,0 +1,71 @@
+h1 {
+  margin-top: 5px;
+  padding: 15px;
+  white-space: normal;
+  border-style: none none none solid;
+  font-size: 25px;
+  line-height: 25px;
+  font-family: 微软雅黑, helvetica, sans-serif;
+  text-shadow: rgb(34, 95, 135) 0px 1px 0px;
+  color: rgb(255, 255, 255);
+  border-radius: 4px;
+  box-shadow: rgb(153, 153, 153) 2px 2px 4px;
+  border-left-width: 10px;
+  border-left-color: rgb(253, 208, 0);
+  display: inline-block;
+  background-color: rgb(55, 57, 57);
+}
+
+h2 {
+  margin-top: 5px;
+  padding: 10px;
+  white-space: normal;
+  border-style: none none none solid;
+  font-size: 18px;
+  line-height: 25px;
+  font-family: 微软雅黑, helvetica, sans-serif;
+  text-shadow: rgb(34, 95, 135) 0px 1px 0px;
+  color: rgb(255, 255, 255);
+  border-radius: 4px;
+  box-shadow: rgb(153, 153, 153) 2px 2px 4px;
+  border-left-width: 10px;
+  border-left-color: red;
+  display: inline-block;
+  background-color: rgb(55, 57, 57);
+}
+
+strong {
+  font-family: 微软雅黑, helvetica, sans-serif;
+  text-shadow: rgb(34, 95, 135) 0px 1px 0px;
+  color:red;
+}
+
+em {
+  color: #529ae5;
+
+}
+
+blockquote {
+  margin-top: 8px;
+  padding: 10px;
+  white-space: normal;
+  border-style: none none none solid;
+  font-size: 18px;
+  line-height: 25px;
+  font-family: 微软雅黑, helvetica, sans-serif;
+  text-shadow: rgb(34, 95, 135) 0px 1px 0px;
+  color: #f2f3f1;
+  border-radius: 4px;
+  box-shadow: rgb(153, 153, 153) 2px 2px 4px;
+  border-left-width: 10px;
+  border-left-color: #529ae5;
+  display: inline-block;
+  background-color: rgb(55, 57, 57);
+}
+
+p {
+  font-size: 16px;
+  padding: 5px 15px;
+  letter-spacing: 1px;
+  line-height: 170%;
+}
