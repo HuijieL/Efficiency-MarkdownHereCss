@@ -1,0 +1,104 @@
+h1 {
+  background-image: url("https://mmbiz.qpic.cn/mmbiz_png/73E0J1ibBymzF6BHhjb87yBsqWxcxc7fibJrNwubuo5XReibr7jib8PHLIWvfZhJqjrTxN9PcKqI09NLw2AgrkWnlA/640?wx_fmt=png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: inline-block;
+  padding: 2% 10% 2% 2%;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  font-family: 微软雅黑, helvetica, sans-serif;
+}
+
+
+h2 {
+  background-image: url("https://mmbiz.qpic.cn/mmbiz_png/73E0J1ibBymzF6BHhjb87yBsqWxcxc7fibEXZibXvV93qXEbbaKSibZ0YibuDdm9jqn047UuJ7gQtTR44aPPnfm2Nqw/640?wx_fmt=png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: inline-block;
+  text-align: center;
+  padding: 2% 10% 2% 2%;
+  font-size: 20px;
+  font-family: 微软雅黑, helvetica, sans-serif;
+  color: white;
+}
+
+strong {
+  font-family: 微软雅黑, helvetica, sans-serif;
+  color:#ed6c6f;
+}
+
+em {
+  color: #00af8f;
+
+}
+
+p {
+  font-size: 16px;
+  padding: 5px 15px;
+  letter-spacing: 1px;
+  line-height: 170%;
+}
+
+
+blockquote{
+  display:block;
+  background: #fff;
+  padding: 15px 20px 15px 45px;
+  margin: 0 0 20px;
+  position: relative;
+
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #666;
+  text-align: justify;
+
+  /*Borders - (Optional)*/
+  border-left: 15px solid #c76c0c;
+  border-right: 2px solid #c76c0c;
+
+  /*Box Shadow - (Optional)*/
+  -moz-box-shadow: 2px 2px 15px #ccc;
+  -webkit-box-shadow: 2px 2px 15px #ccc;
+  box-shadow: 2px 2px 15px #ccc;
+}
+
+blockquote::before{
+  content: "\201C"; /*Unicode for Left Double Quote*/
+
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #999;
+
+  /*Positioning*/
+  position: absolute;
+  left: 10px;
+  top:5px;
+}
+
+blockquote::after{
+  /*Reset to make sure*/
+  content: "";
+}
+
+blockquote a{
+  text-decoration: none;
+  background: #eee;
+  cursor: pointer;
+  padding: 0 3px;
+  color: #c76c0c;
+}
+
+blockquote a:hover{
+ color: #666;
+}
+
+blockquote em{
+  font-style: italic;
+}
